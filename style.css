@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins&family=Sofia+Sans:wght@700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Sofia Sans', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */
+
+:root {
+    --first_font: 'Sofia Sans';
+    --second_font: 'Poppins';
+    --clock_font: 'Orbitron';
+
+    --space-grey: #363636;
+}
+
+html {
+    min-height: 100%; /* To make the linear gradient extend for all page */
+}
+
+body {
+    background-image: linear-gradient(45deg, #454545, #E9E9E9);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0px;
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: var(--first_font);
+    font-size: 3.5em;
+    color: white;
+    margin: 0px;
+    text-align: right;
+}
+
+h2 {
+    font-family: var(--second_font);
+    padding-right: 10px;
+    color: white;
+}
+
+h3 {
+    font-family: var(--first_font);
+    font-size: 1.9em;
+    color: var(--space-grey);
+}
+
+h4 {
+    font-family: var(--clock_font);
+    font-size: 3.5em;
+    margin: 0px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+p {
+    font-family: var(--second_font);
+    font-size: 0.9em;
+}
+
+#title {
+    width: 425px;
+    margin: auto;
+    text-align: center;
+}
+
+#subtitle {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    float: right;
+}
+
+#description {
+    padding-top: 40px;
+    width: 425px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#digital_timer {
+    width: 880px;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+#buttons {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+#btn_start {
+    margin-right: 20px;
+    padding: 20px;
+}
+#btn_pause {
+    margin-right: 20px;
+    padding: 20px;
+}
+#btn_reset {
+    margin-right: 140px;
+    padding: 20px;
+} 
+button {
+    text-align: center;
+    margin: 0px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: var(--space-grey);
+}
+img {
+    width: 50px;
+}
+
+#display {
+    float: right;
+}
+
+#labels {
+    display: flex;
+    align-items: start;
+}
+
+#labels > h3 {
+    margin: 0px;
+    margin-right: 70px;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+}
+
+p a {
+    color: var(--space-grey);
+}

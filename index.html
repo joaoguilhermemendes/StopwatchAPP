@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>stopwatchAPP</title>
+
+</head>
+<body>
+    <section id="title">
+        <h1>Digital.Stopwatch</h1>
+        <div id="subtitle">
+            <h2>to be more</h2><h3>productive</h3>
+        </div>
+    </section>
+    <section id="description">
+        <hr style="color: white; border: 1px white solid;">
+        <p>Simple online stopwatch with start, pause, and reset buttons for precise time tracking and efficient management of intervals.</p>
+    </section>
+
+
+    <section id="digital_timer">
+
+        <section id="buttons">
+            <button onclick="start(true)"  id="btn_start">
+                <img src="pics/play3.png" alt="">
+            </button>
+            <button onclick="pause()"  id="btn_pause">
+                <img src="pics/pause.png" alt="">
+            </button>
+            <button onclick="reset()" id="btn_reset">
+                <img src="pics/reset2.png" alt="">
+            </button>
+        </section>
+
+        <section id="display">
+            <div>
+                <h4 id="timer">00:00:00</h4>
+            </div>
+            <div id="labels">
+                <h3>Minutes</h3>
+                <h3>Seconds</h3>
+                <h3>Miliseconds</h3>
+            </div>
+        </section>
+
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>🧷 by <a href="https://www.github.com/joaoguilhermemendes" target="_blank">João G. Mendes</a> and <a href="https://www.github.com/cr0n1xScript" target="_blank">Cr0n1x</a></p>
+    </footer>
+</body>
+</html>
